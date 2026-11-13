@@ -1,0 +1,32 @@
+﻿@page "/produtos"
+
+<h3>Produtos</h3>
+
+<div class="row">
+
+    <div class="col-md-4">
+
+        <Cartao Titulo="">
+            <FormProduto OnProdutoValido="ReceberProduto" />
+        </Cartao>
+
+    </div>
+
+    <div class="col-md-8">
+
+        <TabelaProdutos Produtos="produtos" />
+
+    </div>
+
+</div>
+
+@code {
+
+    private List<Produto> produtos = new();
+
+    private void ReceberProduto(Produto novoProduto)
+    {
+        produtos.Add(novoProduto);
+    }
+
+}
