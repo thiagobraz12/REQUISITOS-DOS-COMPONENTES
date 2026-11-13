@@ -11,5 +11,5 @@ A página recebe esse evento pelo método ReceberProduto e adiciona o produto à
 
 Abaixo está a tela de cadastro e listagem de produtos:
 
-![Tela de Produtos](imagens/produtos/produtos.png)
+![Tela de Produtos](Imagens/produtos/produtos.png)
 ![Tela de Produtos](imagens/produtos/produtos2.png)
